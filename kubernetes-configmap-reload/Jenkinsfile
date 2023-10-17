@@ -2,7 +2,8 @@
 pipeline {
 
   agent { 
-	  label "BATCH4" 
+#	  label "BATCH4" 
+	  any
   }
   
   parameters {
